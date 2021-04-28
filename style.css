@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 10px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: flex-end;
+  width: 15%;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+}
+
+nav {
+  width: 35%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  color: lightgray;
+  list-style: none;
+  
+}
+
+.li4 {
+ color: black;
+}
+
+.section-1 {
+  background-image: url("/home/vainaweb27/Documentos/Danye02/Desafio final/imagens/laranja azul recorte.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85%;
+  width: 100%;
+}
+
+
+.div-1 { 
+  color: aliceblue;
+  padding-top: 15%;
+  font-size: 45px;
+  margin-left: 10%;
+  height: 100%;
+  width: 65%;
+  font-size: 30px;
+  margin: 5px;
+}
+
+.div-2{
+  display: flex;
+  justify-content: center;
+  height: 280px;
+  margin-top: 80px;
+  margin: 5px;
+}
+
+.div-3{
+  display: flex;
+  justify-content: center;
+  height: 280px;
+  margin-top: 80px;
+  margin: 5px !important;
+}
+
+.div-4{
+  display: flex;
+  justify-content: center;
+  height: 280px;
+  margin-top: 80px;
+  margin: 5px;
+}
+
+.div.footer{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.introducao {
+  margin-bottom: 3%;
+}
+
+
+  
