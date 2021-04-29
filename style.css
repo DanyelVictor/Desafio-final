@@ -35,8 +35,26 @@ ul {
   
 }
 
-.li4 {
+a{
+  text-decoration: none;
+  color: lightgray;
+}
+
+#list:hover{
+  color: rgb(255, 7, 7);
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.list-portifolio {
  color: black;
+}
+
+.colum-img{
+  margin: 3px; 
 }
 
 .section-1 {
@@ -56,7 +74,6 @@ ul {
   height: 100%;
   width: 65%;
   font-size: 30px;
-  margin: 5px;
 }
 
 .div-2{
@@ -64,7 +81,8 @@ ul {
   justify-content: center;
   height: 280px;
   margin-top: 80px;
-  margin: 5px;
+  margin: 5px ;
+  padding: 5px;
 }
 
 .div-3{
@@ -72,7 +90,8 @@ ul {
   justify-content: center;
   height: 280px;
   margin-top: 80px;
-  margin: 5px !important;
+  margin: 5px ;
+  padding: 5px;
 }
 
 .div-4{
@@ -80,14 +99,28 @@ ul {
   justify-content: center;
   height: 280px;
   margin-top: 80px;
-  margin: 5px;
+  margin: 5px ;
+  padding: 5px;
 }
 
-.div.footer{
+footer{
   display: flex;
   justify-content: center;
-  margin: 5px;
+  height: 12vh;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 64px;
 }
+
+.colum-img-footer{
+  padding: 24px  
+}
+
+.footer-copy{
+  margin-right: 10px;
+}
+
 .introducao {
   margin-bottom: 3%;
 }
