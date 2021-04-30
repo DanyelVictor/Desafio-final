@@ -61,7 +61,7 @@ a{
 }
 
 .section-1 {
-  background-image: url("/home/vainaweb27/Documentos/Danye02/Desafio final/imagens/laranja azul recorte.png"); 
+  background-image: url("imagens/laranja azul recorte.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   height: 85%;
